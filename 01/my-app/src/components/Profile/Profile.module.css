@@ -1,0 +1,10 @@
+.content{
+    padding: 10px;
+    grid-area: content;
+    background-color: yellow;
+}
+
+.picture img{
+    width: 100%;
+    margin-bottom: 10px;
+}
