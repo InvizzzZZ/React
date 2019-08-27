@@ -6,8 +6,9 @@
     display: grid;
     width: 1200px;
     margin: 0 auto;
+    padding: 5px;
 
-    grid-gap: 20px;
+    grid-gap: 5px;
 
     grid-template-areas:
     'header header'
@@ -16,7 +17,13 @@
     grid-template-rows: 70px 1fr;
     grid-template-columns: 2fr 10fr;
     /*grid-gap: 10px;*/
+}
 
+.app-wrapper-content{
+    padding: 10px;
+    grid-area: content;
+    background-color: #49669c;
+    border-radius: 10px;
 }
 
 

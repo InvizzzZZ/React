@@ -1,6 +1,6 @@
-01/my-app/.gitignore
-01/my-app/node_modules/
-01/my-app/package-lock.json
-01/my-app/package.json
-01/my-app/README.md
+my-app/.gitignore
+my-app/node_modules/
+my-app/package-lock.json
+my-app/package.json
+my-app/README.md
 
