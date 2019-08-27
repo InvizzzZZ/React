@@ -20,7 +20,6 @@
 }
 
 .app-wrapper-content{
-    padding: 10px;
     grid-area: content;
     background-color: #49669c;
     border-radius: 10px;

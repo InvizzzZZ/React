@@ -1,18 +1,13 @@
 import React from 'react';
-import Avatar from "../Avatar/Avatar";
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile = () => {
+const Profile = (props) => {
     return (
-        <div className={s.profile}>
-            <div className={s.picture}>
-                <img
-                    src="http://hotel-in-anapa.ru/images/sampledata/beach/module_beach.jpg"
-                    alt=""/>
-            </div>
-            <Avatar/>
-            <MyPosts/>
+        <div>
+            <ProfileInfo/>
+            <MyPosts postsElements={props.postsElements}/>
         </div>
     )
 };
