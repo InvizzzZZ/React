@@ -13,11 +13,6 @@ let posts = [
     {id: 1, message: 'It\'s my first post', likesCount: 11}
 ];
 
-let postsElements = posts.map((post) => {
-    return (
-        <Post message={post.message} count={post.likesCount}/>
-    )
-});
 //end from profile
 
 //from dialogs
@@ -30,9 +25,7 @@ let dialogs = [
     {id: 6, name: 'Valera'}
 ];
 
-let dialogsElements = dialogs.map((dialog) => {
-    return <DialogItem name={dialog.name} id={dialog.id}/>
-});
+
 
 let messages = [
     {id: 1, message: 'Hi'},
@@ -42,13 +35,11 @@ let messages = [
     {id: 5, message: 'cool'}
 ];
 
-let messagesElements = messages.map((message) => {
-    return <Message message={message.message}/>
-});
+
 //end from dialogs
 
-ReactDOM.render(<App postsElements={postsElements} dialogsElements={dialogsElements}
-                     messagesElements={messagesElements}/>, document.getElementById('root'));
+ReactDOM.render(<App posts={posts} dialogs={dialogs}
+                     messages={messages}/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
