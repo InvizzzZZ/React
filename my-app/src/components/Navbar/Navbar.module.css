@@ -13,3 +13,19 @@
 .item a.active{
     color: #b79834;
 }
+
+.blockFriends{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.friends{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ba6c27;
+    border-radius: 50%;
+}
