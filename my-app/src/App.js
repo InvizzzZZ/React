@@ -22,9 +22,10 @@ const App = (props) => {
                     {/*<Route path='/music' component={Music}/>*/}
                     {/*<Route path='/settings' component={Settings}/>*/}
 
-                    <Route path='/dialogs' render={() => <Dialogs dialogsElements={props.dialogsElements}
-                                                                  messagesElements={props.messagesElements}/>}/>
-                    <Route path='/profile' render={() => <Profile postsElements={props.postsElements}/>}/>
+                    <Route path='/dialogs'
+                           render={() => <Dialogs state={props.state.dialogsPage}/>}/>
+                    <Route path='/profile'
+                           render={() => <Profile state={props.state.profilePage}/>}/>
                     <Route path='/news' render={() => <News/>}/>
                     <Route path='/music' render={() => <Music/>}/>
                     <Route path='/settings' render={() => <Settings/>}/>
