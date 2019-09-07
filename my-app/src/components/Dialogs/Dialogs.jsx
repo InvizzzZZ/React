@@ -25,7 +25,7 @@ const Dialogs = (props) => {
                     <NavLink to='/dialogs/6'>Vasya</NavLink>
                 </div>
                 <div className={s.dialog}>
-                    <NavLink to='/dialogs/1'>Egor</NavLink>
+                    <NavLink to='/dialogs/7'>Egor</NavLink>
                 </div>
             </div>
             <div className={s.messages}>
